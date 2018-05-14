@@ -1,0 +1,15 @@
+﻿A BankAccount has:
+- number (required)
+- balance (initially zero)
+
+Deposit money (amount)
+
+	Deny deposit if:
+	- the amount is negative
+
+
+Withdraw money (amount)
+
+	Deny withdraw if:
+	- the amount is negative 
+	- the amount is bigger than the balance
